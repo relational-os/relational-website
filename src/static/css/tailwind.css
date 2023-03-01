@@ -4,8 +4,15 @@
 
 /*Your Custom CSS Goes here*/
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+body {
+  background: #000;
+}
+
 h1 {
   @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+  font-family: 'Inter', sans-serif;
 }
 
 h3 {
@@ -14,7 +21,7 @@ h3 {
 
 /* Syntax Highlighting*/
 
-body :not(pre) > code[class*="language-"],
-body pre[class*="language-"] {
+body :not(pre) > code[class*='language-'],
+body pre[class*='language-'] {
   @apply bg-gray-800;
 }
