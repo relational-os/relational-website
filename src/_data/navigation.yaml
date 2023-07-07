@@ -1,7 +1,5 @@
 ---
 items:
-  - text: Home
-    url: "/home"
   - text: Practices
     url: "/practices"
   - text: Works

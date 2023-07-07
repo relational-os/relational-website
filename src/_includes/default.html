@@ -14,11 +14,11 @@
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
   </head>
   <body>
-    <!-- {% include "./partials/navbar.html" %} -->
+    {% include "./partials/navbar.html" %}
 
     {{ content | safe }}
 
-    <!-- {% include "./partials/footer.html" %} -->
+    {% include "./partials/footer.html" %}
 
     {% if path == "home" %}
       <!-- Netlify Identity Widget -->
