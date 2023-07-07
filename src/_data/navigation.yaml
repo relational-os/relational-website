@@ -1,4 +1,12 @@
 ---
 items:
-  - text: Blog
-    url: "/blog"
+  - text: Home
+    url: "/home"
+  - text: Practices
+    url: "/practices"
+  - text: Works
+    url: "/works"
+  - text: About
+    url: "/about"
+  - text: Log
+    url: "/log"

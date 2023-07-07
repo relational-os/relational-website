@@ -13,11 +13,15 @@
 
 body {
   background: #000;
+  font-family: 'Inter', sans-serif;
 }
 
 h1 {
   @apply text-5xl tracking-tighter mb-3 text-center lg:text-7xl;
-  font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  @apply text-3xl font-bold mb-3;
 }
 
 h3 {
