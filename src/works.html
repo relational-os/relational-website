@@ -9,13 +9,18 @@ path: works
   <h3 class="pt-10 text-white">
     {{title}}
   </h3>
-  <h4 class="text-gray-400 italic text-center max-w-sm mx-auto mb-10">How we work effects what we build</h4>
-  <p class="max-w-3xl ">All of our projects grow out of a shared need we identify within the Relational community. We start by building for ourselves - anything we build is something we’ve tested and used ourselves. We have an entrepreneurial spirit and aim to directly serve our community and neighboring communities.</p>
+  <h4 class="text-gray-400 italic text-center max-w-md mx-auto mb-10">We build for communities in service of better connection</h4>
+  <p class="max-w-3xl ">All of our products start as projects and grow out of a shared need we identify within the Relational community. We're focused on explorations into different communications challenges: how can we build better digital products to improve human connection?
+    <br><br>
+    We start by building for ourselves using our social-first approach, if it works for us on a smaller scale, we begin to expand our reach.  Our entrepreneurial spirit guides us to directly serve our community and neighboring communities.
+    <br><br>
+    The form of our projects depends on the context and the builders. We can create just about every type of product: from tools, to games, to protocols. So long as our offering serves to better connect people, it's fair game.
+  </p>
 
   <ul class="my-10 flex flex-col items-center">
 
     {% for item in works.items %}
-    <li class="flex flex-wrap px-5 md:flex-nowrap mb-20 md:bg-gray-900 md:pr-10 md:pl-0">
+    <li class="flex flex-wrap px-5 md:flex-nowrap mb-20 md:bg-gray-900 md:pr-10 md:pl-0 relative">
       <a href="{{ item.url }}" class="md:flex md:items-center w-full hover:text-gray-300">
         <div class="w-full md:w-1/2 md:mr-5">
           <img src="{{ item.image }}" class="mx-auto md:mx-0 w-48 h-48 object-cover" />
@@ -25,6 +30,7 @@ path: works
           <p class="max-w-sm mx-auto md:mx-0">{{ item.description }}</p>
         </div>
       </a>
+      <p class="absolute top-3 right-3 text-sm text-gray-500">{{ item.status }}</p>
     </li>
     
     {% endfor %}
