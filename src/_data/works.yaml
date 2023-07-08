@@ -1,0 +1,30 @@
+---
+items:
+  - text: Gathern
+    url: "/gathern"
+    description: "Deepen your understanding of self, others and the world through conversation"
+    image: "https://picsum.photos/id/222/200"
+  - text: Exquisite Land
+    url: "/xqst"
+    description: "Tap into the magic and whimsy of the world by developing pixel art works with a community"
+    image: "https://picsum.photos/id/223/200"
+  - text: Ponder
+    url: "/ponder"
+    description: "Externalize the internal and grow friendships in shared journal and blog practices"
+    image: "https://picsum.photos/id/233/200"
+  - text: Prompty
+    url: "/prompty"
+    description: "Discover what's hidden just below the surface by crafting and responding to prompts that get you thinking"
+    image: "https://picsum.photos/id/225/200"
+  - text: OurShip
+    url: "/ourship"
+    description: "Free your mind from the constraints of consensus reality by seeing the world through metaphor"
+    image: "https://picsum.photos/id/255/200"
+  - text: OurLog
+    url: "/rlog"
+    description: "Discover patterns in your community's thinking through simple sensemaking practices"
+    image: "https://picsum.photos/id/227/200"
+  - text: buzzard.life
+    url: "/buzzard"
+    description: "Grow a shared brain by cultivating findings from social games and experiments"
+    image: "https://picsum.photos/id/228/200"

@@ -4,10 +4,33 @@ title: Works
 path: works
 ---
 
-<div class="container h-screen flex flex-col justify-start items-center relative">
+<div class="container flex flex-col justify-start items-center relative">
 
   <h3 class="pt-10 text-white">
     {{title}}
   </h3>
+  <p>All of our projects grow out of a shared need we identify within the Relational community. We start by building for ourselves - anything we build is something we’ve tested and used ourselves. We have an entrepreneurial spirit and aim to directly serve our community and neighboring communities.</p>
+
+  <ul class="my-10 flex flex-col items-center ">
+
+    {% for item in works.items %}
+    <li class="flex flex-wrap md:flex-nowrap mb-20">
+      <a href="{{ item.url }}" class="md:flex md:items-center w-full hover:text-blue-800">
+        <div class="w-full md:w-1/2 md:mr-5">
+          <img src="{{ item.image }}" class="mx-auto md:mx-0 w-48 h-48 object-cover" />
+        </div>
+        <div class="text-center md:text-left w-full md:w-3/4 mt-4 md:mt-0">
+          <h3 class="font-bold mb-2">{{ item.text }}</h3>
+          <p class="max-w-sm mx-auto md:mx-0">{{ item.description }}</p>
+        </div>
+      </a>
+    </li>
+    
+    {% endfor %}
+
+  </ul>
+
+ 
+
 
 </div>
