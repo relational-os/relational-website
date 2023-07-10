@@ -1,14 +1,13 @@
-<div class=" w-full">
-    <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto">
+<div class=" w-full py-5">
+    <h3 class="text-center pb-2"><a href="/">Relational</a></h3>
+    <nav class="flex items-center justify-center lg:justify-between flex-wrap pb-1 lg:px-0 container mx-auto">
 
         <!--Menu-->
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center ">
-
-            <h3><a href="/">Relational</a></h3>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center  ">
 
             {% if navigation.items %}
 
-                <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
+                <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-center flex-1 items-center">
                     {% for item in navigation.items %}
                         <li class="nav__item mr-3">
                             <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
