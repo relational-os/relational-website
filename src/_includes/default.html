@@ -28,6 +28,12 @@
       <!-- Needed only if you are using Netlify Identity feature -->
       <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {% endif %}
-
+  
+    <script>window.addEventListener("load", function() {
+      setTimeout(function() {
+          document.body.classList.add('visible'); /* add the class 'visible' to the body */
+      }, 500);
+  });
+  </script>
   </body>
 </html>
