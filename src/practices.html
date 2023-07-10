@@ -18,8 +18,8 @@ path: practices
   <ul class="mb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
     {% for item in practices.items %}
-    <li class=" max-w-sm bg-gradient-to-b from-neutral-100 to-stone-300 text-neutral-900 rounded-3xl overflow-hidden">
-      <a href="{{ item.url }}" class="flex flex-col hover:opacity-75">
+    <li class=" max-w-sm border-neutral-700 border rounded-3xl overflow-hidden">
+      <a href="{{ item.url }}" class="flex flex-col">
         <div class="flex items-center justify-center h-48">
           <img src="{{ item.image }}" class="w-32 h-32 object-cover" />
         </div>
