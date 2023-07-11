@@ -1,5 +1,5 @@
-<svg width="207" height="210" viewBox="0 0 207 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="103.5" cy="103.5" r="103" stroke="#622771"/>
+<svg width="207" height="207" viewBox="0 0 207 207" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="103.5" cy="103.5" r="102.5" fill="url(#paint0_radial_420_116)" stroke="#563B7D" stroke-width="2" stroke-linecap="round"/>
 <g clip-path="url(#clip0_420_116)">
 <path d="M22.5 181C34.9264 181 45 170.926 45 158.5C45 146.074 34.9264 136 22.5 136C10.0736 136 0 146.074 0 158.5C0 170.926 10.0736 181 22.5 181Z" fill="#CBDD0A"/>
 <path d="M22.5 156.812L5.77125 173.541C9.88875 178.12 15.8569 181 22.5 181C29.1431 181 35.1112 178.12 39.2287 173.541L22.5 156.812Z" fill="#563B7D"/>
@@ -76,16 +76,20 @@
 <path d="M98.2979 92.4681V94.5332C98.2979 97.2591 100.141 99.4894 102.394 99.4894C104.646 99.4894 106.489 97.2591 106.489 94.5332V92.4681" stroke="#333334" stroke-width="2.34043" stroke-miterlimit="10"/>
 </g>
 <defs>
-<filter id="filter0_d_420_116" x="6.99999" y="4" width="191.957" height="206" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_420_116" x="18" y="15" width="169.957" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
-<feGaussianBlur stdDeviation="24"/>
+<feGaussianBlur stdDeviation="18.5"/>
 <feComposite in2="hardAlpha" operator="out"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0.643137 0 0 0 0 0.909804 0 0 0 0 0.290196 0 0 0 1 0"/>
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_420_116"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_420_116" result="shape"/>
 </filter>
+<radialGradient id="paint0_radial_420_116" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(103.5 103.5) rotate(90) scale(103.5)">
+<stop offset="0.739583" stop-color="#622771"/>
+<stop offset="1" stop-color="#622771" stop-opacity="0"/>
+</radialGradient>
 <clipPath id="clip0_420_116">
 <rect width="45" height="45" fill="white" transform="translate(0 136)"/>
 </clipPath>

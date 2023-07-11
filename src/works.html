@@ -27,12 +27,13 @@ path: works
           <img src="{{ item.image }}" class="mx-auto md:mx-0 w-48 h-48 object-cover" />
         </div>
         <div class="text-center md:text-left w-full md:w-3/4 mt-4 md:mt-0">
+          <p class="text-xs text-neutral-600 mb-2">{{ item.status }}</p>
           <h3 class="font-bold mb-2">{{ item.text }}</h3>
           <p class="max-w-sm mx-auto md:mx-0">{{ item.description }}</p>
           <small class="blocktext-xs mt-2 opacity-60">{{ item.addressTitle }}</small>
         </div>
       </a>
-      <p class="absolute top-3 right-3 text-sm text-gray-500">{{ item.status }}</p>
+      
     </li>
     
     {% endfor %}
