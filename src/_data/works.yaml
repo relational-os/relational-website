@@ -1,37 +1,44 @@
 ---
 items:
   - text: Gathern
-    url: "/gathern"
-    description: "Deepen your understanding of self, others and the world through conversation"
-    image: "https://picsum.photos/id/222/200"
+    url: "https://gathern.xyz"
+    description: "Deepen your understanding of self, others and the world through dialogue"
+    image: "/static/img/works-gathern.svg"
     status: "active"
+    addressTitle: "gathern.xyz"
   - text: Exquisite Land
-    url: "/xqst"
+    url: "https://exquisite.land"
     description: "Tap into the magic and whimsy of the world by developing pixel art works with a community"
     image: "https://picsum.photos/id/223/200"
     status: "ZZZ"
+    addressTitle: "exquisite.land"
   - text: Ponder
-    url: "/ponder"
+    url: "https://ponder.to"
     description: "Externalize the internal and grow friendships in shared journal and blog practices"
     image: "https://picsum.photos/id/233/200"
-    status: "RIP"
+    status: "🪦"
+    addressTitle: "ponder.to"
+  - text: OurLog
+    url: "https://ourlog.xyz"
+    description: "Discover patterns in your community's thinking through simple sensemaking practices"
+    image: "https://picsum.photos/id/227/200"
+    status: "simmering"
+    addressTitle: "ourlog.xyz"
+  - text: buzzard.life
+    url: "https://buzzard.life"
+    description: "Grow a shared brain by cultivating findings from social games and experiments"
+    image: "https://picsum.photos/id/228/200"
+    status: "🪦"
+    addressTitle: "buzzard.life"
   - text: Prompty
-    url: "/prompty"
+    url: "https://www.kristenpavle.com/prompty-a-simple-web3-call-n-response-game/"
     description: "Discover what's hidden just below the surface by crafting and responding to prompts that get you thinking"
     image: "https://picsum.photos/id/225/200"
     status: "simmering"
+    addressTitle: "prompty.xyz"
   - text: OurShip
-    url: "/ourship"
+    url: "https://mirror.xyz/0xb1CfC8e818fC40dB33F59caaeFe29B3FFc6aF65A/gyB-O_BneXNnmhE2m7vP5OzbOz_iXjfjq_zoruTqDcE"
     description: "Free your mind from the constraints of consensus reality by seeing the world through metaphor"
-    status: "ZZZ"
     image: "https://picsum.photos/id/255/200"
-  - text: OurLog
-    url: "/rlog"
-    description: "Discover patterns in your community's thinking through simple sensemaking practices"
-    status: "simmering"
-    image: "https://picsum.photos/id/227/200"
-  - text: buzzard.life
-    url: "/buzzard"
-    description: "Grow a shared brain by cultivating findings from social games and experiments"
-    image: "https://picsum.photos/id/228/200"
-    status: "RIP"
+    status: "ZZZ"
+    addressTitle: "undisclosed"
