@@ -3,32 +3,32 @@ items:
   - text: Code Trips
     url: "/codetrip"
     description: "deepen your development capacity by going for a group-programming journey"
-    image: "https://picsum.photos/id/312/200"
+    image: "/static/img/practices-1.svg"
   - text: Design Jams
     url: "/designjam"
     description: "create a multi-perspectival view of your project with a social approach to design "
-    image: "https://picsum.photos/id/334/200"
+    image: "/static/img/practices-2.svg"
   - text: Explorers Club
     url: "/explorersclub"
     description: "cultivate common sense as you traverse new terrain and sharpen your understanding of any topic"
-    image: "https://picsum.photos/id/355/200"
+    image: "/static/img/practices-3.svg"
   - text: Social Choreography
     url: "/socialchoreography"
     description: "get production ready by making a performance of your software project"
-    image: "https://picsum.photos/id/444/200"
+    image: "/static/img/practices-4.svg"
   - text: Experience Mapping
     url: "/experiencemapping"
     description: "find a seamless user-experience through group-cartography across every layer of your product"
-    image: "https://picsum.photos/id/420/200"
+    image: "/static/img/practices-5.svg"
   - text: Start Tiny
     url: "/startsmall"
     description: "drop the barrier to getting started by beginning with a laughably simple task"
-    image: "https://picsum.photos/id/322/200"
+    image: "/static/img/practices-6.svg"
   - text: Design Fiction
     url: "/designfiction"
     description: "imagine a world with your new product to find previously elusive aspirations and delightful details"
-    image: "https://picsum.photos/id/22/200"
+    image: "/static/img/practices-7.svg"
   - text: Blackboxing
     url: "/blackboxing"
     description: "unearth your team's collective intelligence without falling into group-think"
-    image: "https://picsum.photos/id/401/200"
+    image: "/static/img/practices-8.svg"

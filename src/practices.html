@@ -19,7 +19,7 @@ path: practices
 
     {% for item in practices.items %}
     <li class=" max-w-sm border-neutral-700 border rounded-3xl overflow-hidden">
-      <a href="{{ item.url }}" class="flex flex-col">
+      <!-- <a href="{{ item.url }}" class="flex flex-col"> -->
         <div class="flex items-center justify-center h-48">
           <img src="{{ item.image }}" class="w-32 h-32 object-cover" />
         </div>
@@ -28,7 +28,7 @@ path: practices
           <h3 class="font-bold mb-2 text-xl">{{ item.text }}</h3>
           <p class="pb-4 opacity-70 text-lg">{{ item.description }}</p>
         </div>
-      </a>
+      <!-- </a> -->
     </li>
     {% endfor %}
   </ul>
