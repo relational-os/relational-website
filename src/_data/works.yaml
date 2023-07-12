@@ -12,6 +12,12 @@ items:
     image: "/static/img/works-xqst.jpg"
     status: "snoozing"
     addressTitle: "exquisite.land ↗"
+  - text: XQST GFX
+    url: "https://www.exquisite.graphics/"
+    description: "An on-chain pixel art graphics rendering engine accessible to everyone."
+    image: "/static/img/works-xqstgfx.svg"
+    status: "snoozing"
+    addressTitle: "exquisite.graphics ↗"
   - text: Ponder
     url: "https://ponder.to"
     description: "Externalize the internal and grow friendships in shared journal and blog practices"
@@ -27,18 +33,18 @@ items:
   - text: buzzard.life
     url: "https://buzzard.life"
     description: "Grow a shared brain by cultivating findings from social games and experiments"
-    image: "https://picsum.photos/id/228/200"
+    image: "/static/img/works-buzzard.jpg"
     status: "RIP"
     addressTitle: "buzzard.life ↗"
   - text: Prompty
     url: "https://www.kristenpavle.com/prompty-a-simple-web3-call-n-response-game/"
     description: "Discover what's hidden just below the surface by crafting and responding to prompts that get you thinking"
-    image: "https://picsum.photos/id/225/200"
+    image: "/static/img/works-prompty2.jpg"
     status: "simmering"
-    addressTitle: "prompty.xyz ↗"
+    addressTitle: "blog post ↗"
   - text: OurShip
-    url: "https://mirror.xyz/0xb1CfC8e818fC40dB33F59caaeFe29B3FFc6aF65A/gyB-O_BneXNnmhE2m7vP5OzbOz_iXjfjq_zoruTqDcE"
+    url: "https://ourship.framer.website/"
     description: "Free your mind from the constraints of consensus reality by seeing the world through metaphor"
     image: "/static/img/works-ourship.jpg"
     status: "drifting"
-    addressTitle: "undisclosed"
+    addressTitle: "half-baked mockup ↗"
