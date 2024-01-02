@@ -1,50 +1,50 @@
 ---
 items:
   - text: Gathern
-    url: "https://gathern.xyz"
-    description: "Deepen your understanding of self, others and the world through dialogue"
-    image: "/static/img/works-gathern.svg"
-    status: "active!"
-    addressTitle: "gathern.xyz ↗"
+    url: 'http://www.gathern.xyz'
+    description: 'Deepen your understanding of self, others and the world through dialogue'
+    image: '/static/img/works-gathern.svg'
+    status: 'active!'
+    addressTitle: 'gathern.xyz ↗'
   - text: Exquisite Land
-    url: "https://exquisite.land"
-    description: "Tap into the magic and whimsy of the world by developing pixel art works with a community"
-    image: "/static/img/works-xqst.jpg"
-    status: "snoozing"
-    addressTitle: "exquisite.land ↗"
+    url: 'https://exquisite.land'
+    description: 'Tap into the magic and whimsy of the world by developing pixel art works with a community'
+    image: '/static/img/works-xqst.jpg'
+    status: 'snoozing'
+    addressTitle: 'exquisite.land ↗'
   - text: XQST GFX
-    url: "https://www.exquisite.graphics/"
-    description: "An on-chain pixel art graphics rendering engine accessible to everyone."
-    image: "/static/img/works-xqstgfx.svg"
-    status: "snoozing"
-    addressTitle: "exquisite.graphics ↗"
+    url: 'https://www.exquisite.graphics/'
+    description: 'An on-chain pixel art graphics rendering engine accessible to everyone.'
+    image: '/static/img/works-xqstgfx.svg'
+    status: 'snoozing'
+    addressTitle: 'exquisite.graphics ↗'
   - text: Ponder
-    url: "https://ponder.to"
-    description: "Externalize the internal and grow friendships in shared journal and blog practices"
-    image: "/static/img/works-ponder.png"
-    status: "RIP"
-    addressTitle: "ponder.to ↗"
+    url: 'https://ponder.to'
+    description: 'Externalize the internal and grow friendships in shared journal and blog practices'
+    image: '/static/img/works-ponder.png'
+    status: 'RIP'
+    addressTitle: 'ponder.to ↗'
   - text: OurLog
-    url: "https://ourlog.xyz"
+    url: 'https://ourlog.xyz'
     description: "Discover patterns in your community's thinking through simple sensemaking practices"
-    image: "/static/img/works-ourlog2.jpg"
-    status: "simmering"
-    addressTitle: "ourlog.xyz ↗"
+    image: '/static/img/works-ourlog2.jpg'
+    status: 'simmering'
+    addressTitle: 'ourlog.xyz ↗'
   - text: buzzard.life
-    url: "https://buzzard.life"
-    description: "Grow a shared brain by cultivating findings from social games and experiments"
-    image: "/static/img/works-buzzard.jpg"
-    status: "RIP"
-    addressTitle: "buzzard.life ↗"
+    url: 'https://buzzard.life'
+    description: 'Grow a shared brain by cultivating findings from social games and experiments'
+    image: '/static/img/works-buzzard.jpg'
+    status: 'RIP'
+    addressTitle: 'buzzard.life ↗'
   - text: Prompty
-    url: "https://www.kristenpavle.com/prompty-a-simple-web3-call-n-response-game/"
+    url: 'https://www.kristenpavle.com/prompty-a-simple-web3-call-n-response-game/'
     description: "Discover what's hidden just below the surface by crafting and responding to prompts that get you thinking"
-    image: "/static/img/works-prompty2.jpg"
-    status: "simmering"
-    addressTitle: "blog post ↗"
+    image: '/static/img/works-prompty2.jpg'
+    status: 'simmering'
+    addressTitle: 'blog post ↗'
   - text: OurShip
-    url: "https://ourship.framer.website/"
-    description: "Free your mind from the constraints of consensus reality by seeing the world through metaphor"
-    image: "/static/img/works-ourship.jpg"
-    status: "drifting"
-    addressTitle: "half-baked mockup ↗"
+    url: 'https://ourship.framer.website/'
+    description: 'Free your mind from the constraints of consensus reality by seeing the world through metaphor'
+    image: '/static/img/works-ourship.jpg'
+    status: 'drifting'
+    addressTitle: 'half-baked mockup ↗'
