@@ -13,16 +13,13 @@ body {
   color: #eee;
   margin: 0 2rem;
   font-family: 'Libre Franklin', serif;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease-in-out 0.1s, transform 0.5s ease-in-out;
-  visibility: hidden;
 }
-
-body.visible {
-  opacity: 1;
-  transform: translateY(0);
-  visibility: visible; /* make contents visible when the body has the class 'visible' */
+body.onepager {
+  min-height: 100vh;
+  background: radial-gradient(81.15% 26.74% at 49.55% 0%, rgba(255, 242, 201, 0.17) 0%, #fff2c7 100%);
+  color: #684430;
+  margin: 2rem 0 0;
+  font-family: 'Averia Libre', system-ui;
 }
 
 h1 {
@@ -45,9 +42,72 @@ p {
   @apply text-2xl mb-5;
 }
 
+body.onepager p {
+  @apply mb-8;
+  letter-spacing: -0.4px;
+}
+
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*='language-'],
 body pre[class*='language-'] {
   @apply bg-gray-800;
+}
+
+.invite-button {
+  position: relative;
+  display: inline-block;
+  color: #734916;
+  text-align: center;
+  font-family: 'Averia Libre';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 42px */
+  letter-spacing: -0.532px;
+  padding: 12px 32px;
+  border-radius: 12px;
+  background: #ffb864;
+  box-shadow: 0px 7px 0px 0px #ffa438, 0px 11px 38px 9px #ffd5a4;
+  transition: all 0.2s ease-out;
+}
+.invite-button:hover {
+  transform: scale(1.08);
+}
+.invite-button::after {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -85px;
+  background: url('/static/img/invitation-feb2024/arrow.svg') no-repeat;
+  background-size: contain;
+  width: 60px;
+  height: 110px;
+  pointer-events: none;
+  transition: all 0.15s ease-out;
+}
+.invite-button:hover::after {
+  opacity: 0;
+}
+
+.arrow {
+  top: -50px;
+  right: 45px;
+}
+
+.grass {
+  background: url('/static/img/invitation-feb2024/grass.svg') top center no-repeat;
+  background-size: 150%;
+}
+
+.bottom-sheet {
+  width: 100%;
+  border-radius: 30px 30px 0px 0px;
+  background: #fffce2;
+  color: #4a612c;
+}
+
+body.onepager .bottom-sheet p {
+  @apply text-xl;
+  letter-spacing: -0.3px;
 }

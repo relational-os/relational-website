@@ -1,12 +1,12 @@
 ---
 items:
   - text: Home
-    url: "/"
+    url: '/old'
   - text: Practices
-    url: "/practices"
+    url: '/practices'
   - text: Works
-    url: "/works"
+    url: '/works'
   - text: About
-    url: "/about"
+    url: '/about'
   - text: Log
-    url: "/log"
+    url: '/log'
