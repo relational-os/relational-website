@@ -4,7 +4,3 @@ items:
     image: '/static/img/squad-kristen.jpg'
     title: 'kristenpavle.com'
     url: 'https://kristenpavle.com'
-  - name: 'Dave Gorum'
-    image: '/static/img/squad-dave.jpg'
-    title: 'davegorum.com'
-    url: 'https://davegorum.com'
